@@ -6,7 +6,7 @@ interface WelcomeMessageProps{
 }
 const WelcomeMessage = ({position,country='Some where'}:WelcomeMessageProps) => {
   return (
-    <Box mb={1}>
+    <Box mb={1} textAlign='center'>
       {position} {country}
     </Box>
   )
